@@ -5,4 +5,61 @@ dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
 font-family: Arial, Helvetica, sans-serif
 */
-  
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0px;
+}
+
+nav {
+  height: 50px;
+  background-color: #2081c3;
+  width: 100%;
+  box-shadow: 0px 2px 4px #888888;
+}
+
+nav a {
+  margin: 0px 20px;
+  /* padding-top: 20px; */
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+footer {
+  height: 30px;
+  width: 100%;
+  background-color: #0a2c42;
+}
+
+footer p {
+  /* margin-top: 10px; */
+  margin-left: 10px;
+  line-height: 30px;
+  /* text-align: center; */
+  vertical-align: middle;
+}
+
+.index-container button {
+  background-color: #2081c3;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 10px;
+  display: block;
+  /* padding: 0 auto; */
+  /* horizontal-align: middle; */
+  margin: 50px auto;
+  box-shadow: 0px 2px 4px #888888;
+  border: none;
+}
+
+.index-container img {
+  display: block;
+  /* padding: 0 auto; */
+  /* horizontal-align: middle; */
+  margin: 50px auto;
+  width: 300px;
+}
